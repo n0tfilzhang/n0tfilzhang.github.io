@@ -1,21 +1,7 @@
-.font
-{
-    font-family: monospace;
-}
-@media (min-width: 320px) 
-{}
-@media (min-width: 481px)
-{}
-@media (min-width: 641px)
+@media(min-width: 601px) and (max-width: 815px)
 {
     #p1
     {
         font-size: 36px;
     }
 }
-@media (min-width: 961px)
-{}
-@media (min-width: 1025px)
-{}
-@media (min-width: 1281px)
-{}
