@@ -12,7 +12,13 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-  
+
+.testocentrato
+{
+    text-align: center;
+    font-weight: 1000;
+}
+
 @media(min-width: 180px) and (max-width: 815px)
 {
     h2
