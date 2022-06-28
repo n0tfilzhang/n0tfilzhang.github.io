@@ -19,10 +19,25 @@
     font-weight: 1000;
 }
 
+.fa-wechat:hover
+{
+    color: #19eb78;
+}
+
+.fa-instagram:hover
+{
+    color: #e34e85;
+}
+
 @media(min-width: 180px) and (max-width: 815px)
 {
     h2
     {
         font-size: 46px;
     }
+}
+
+@media(min-width: 180px) and (max-width: 815px)
+{
+    
 }
