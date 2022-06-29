@@ -29,15 +29,21 @@
     color: #e34e85;
 }
 
+a:link
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: black;
+}
+
 @media(min-width: 180px) and (max-width: 815px)
 {
     h2
     {
         font-size: 46px;
     }
-}
-
-@media(min-width: 180px) and (max-width: 815px)
-{
-    
 }
