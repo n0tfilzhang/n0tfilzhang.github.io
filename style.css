@@ -3,7 +3,7 @@
     font-family: monospace;
 }
 
-.centro
+.center
 {
     margin: 0;
     position: absolute;
@@ -13,7 +13,7 @@
     transform: translate(-50%, -50%);
 }
 
-.testocentrato
+.centered
 {
     text-align: center;
     font-weight: 1000;
@@ -38,6 +38,18 @@ a:link
 a:visited
 {
     color: black;
+}
+
+.padding2
+{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.padding1
+{
+    padding-right: 10px;
+    padding-top: 30px;
 }
 
 @media(min-width: 180px) and (max-width: 815px)
