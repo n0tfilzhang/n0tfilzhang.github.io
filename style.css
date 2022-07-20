@@ -1,6 +1,7 @@
 .font
 {
     font-family: monospace;
+    color: white;
 }
 
 .center
@@ -31,13 +32,13 @@
 
 a:link
 {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:visited
 {
-    color: black;
+    color: white;
 }
 
 .padding2
