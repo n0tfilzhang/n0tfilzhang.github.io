@@ -4,6 +4,12 @@
     color: white;
 }
 
+.size
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+
 .center
 {
     margin: 0;
