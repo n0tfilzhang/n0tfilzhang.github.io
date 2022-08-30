@@ -36,6 +36,11 @@
     color: #e34e85;
 }
 
+.fa-youtube:hover
+{
+    color: #ff0000;
+}
+
 a:link
 {
     color: white;
@@ -47,15 +52,21 @@ a:visited
     color: white;
 }
 
+.padding1
+{
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
 .padding2
 {
     padding-left: 10px;
     padding-top: 30px;
 }
 
-.padding1
+.padding3
 {
-    padding-right: 10px;
+    padding-left: 20px;
     padding-top: 30px;
 }
 
