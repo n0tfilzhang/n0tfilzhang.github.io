@@ -8,15 +8,28 @@
         <link rel = "shortcut icon" href = "img/doge.png">
         <link rel = "apple-touch-icon" href = "img/doge.png" sizes = "180x180">
         <link rel = "stylesheet" href = "style.css">
-        <script src="https://kit.fontawesome.com/02fc447bae.js" crossorigin="anonymous"></script>
+        <script src = "https://kit.fontawesome.com/02fc447bae.js" crossorigin = "anonymous"></script>
     </head>
     <body style = "background-color: #17669b">
+        <span id = "count" class = "font size2"> 0 </span>
+        <span class = "font size2"> views </span>
+        <script>
+            const countEl = document.getElementById("count");
+            countvisits();
+            function countvisits() {
+              fetch('https://api.countapi.xyz/update/ntfz/ntfz/?amount=1')
+                .then((res) => res.json())
+                .then((res) => {
+                  countEl.innerHTML = res.value;
+                });
+            }
+          </script>
         <div class = "center">
             <p align = "center" class = "font size"> «set boundaries and don't feel bad about it» </p>
             <div align = "center">
                 <a href = "wx.html" target = "_blank" class = "fa fa-wechat fa-4x padding1"></a>
                 <a href = "https://www.instagram.com/n0tfilzhang" target = "_blank" class = "fa fa-instagram fa-4x padding2"></a>
-                <a href = "https://www.youtube.com/watch?v=Eyjj8BgsBGU&list=RDEyjj8BgsBGU&start_radio=1&ab_channel=DwayneL" target = "_blank" class = "fa fa-youtube fa-4x padding3"></a>
+                <a href = "https://www.youtube.com/watch?v=7aekxC_monc&ab_channel=PostMaloneVEVO" target = "_blank" class = "fa fa-youtube fa-4x padding3"></a>
         </div>
         <br><br><br>
         <p class = "centered font"> made by n0tfilzhang 🫡</p>
