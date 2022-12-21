@@ -42,6 +42,14 @@ body
     color: white;
 }
 
+.bi-snow
+{
+    animation: fall linear forwards;
+    color: white;
+    position: absolute;
+    top: -20px;
+}
+
 .bi-wechat:hover
 {
     color: #19eb78;
@@ -122,4 +130,12 @@ a:visited
 {
     opacity: 0;
     animation: fadeIn 1s ease-in forwards;
+}
+
+@-webkit-keyframes fall
+{
+    to
+    {
+        transform: translateY(105vh);
+    }
 }
