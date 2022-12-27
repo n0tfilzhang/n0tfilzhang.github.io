@@ -4,6 +4,12 @@ body
     font-family: monospace;
 }
 
+.font
+{
+    font-family: monospace;
+    color: white;
+}
+
 .pfp
 {
     display: block;
