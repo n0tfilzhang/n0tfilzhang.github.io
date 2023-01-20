@@ -24,7 +24,8 @@ body
 .username
 {
     text-align: center;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     font-size: 28px;
 }
 
@@ -78,6 +79,16 @@ a:visited
 {
     text-align: center;
     font-weight: 1000;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.pad30
+{
+    padding-bottom: 15px;
 }
 
 .size2
