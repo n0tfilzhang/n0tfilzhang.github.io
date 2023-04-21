@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-        <meta name = "viewport" content = "width = 600">
-        <meta name = "description" content = "Welcome to n0tfilzhang's site.">
+        <meta charseft = "utf-8">
+        <meta name = "viewport" content = "width = device-width">
+        <meta name = "description" content = "Welcome to n0tfilzhang's site!">
         <title>
             Filippo Zhang
         </title>
         <link rel = "shortcut icon" href = "img/rocket.png">
         <link rel = "apple-touch-icon" href = "img/rocket.png" sizes = "180x180">
-        <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "style2.css">
+        <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     </head>
-    <body style = "background-color: black">
-        <div class = "center">
-          <p align = "center" class = "font size"> the website is currently <br> being updated </p>
+    <body>
+        <div class = "splash">
+          <h1 class = "fade-in"> Welcome! </h1>
         </div>
+        <span id = "count" class = "font size2"> 0 </span>
+        <span class = "font size2"> views </span>
+        <script>
+            const countEl = document.getElementById("count");
+            countvisits();
+            function countvisits() {
+              fetch('https://api.countapi.xyz/update/ntfz/ntfz/?amount=1')
+                .then((res) => res.json())
+                .then((res) => {
+                  countEl.innerHTML = res.value;
+                });
+            }
+          </script>
+        <img src = "img/pfp.jpg" class = "pfp" title = "Filippo">
+        <div class = "username white"> <b> Filippo Zhang </b> </div>
+        <p class = "center font size2 pad30"> «you know it's not <br> the same as it was» </p>
+        <a href = "wx.html" target = "_blank" class = "links bi bi-wechat"> Wechat </a>
+        <a href = "https://www.instagram.com/n0tfilzhang" target = "_blank" class = "links bi bi-instagram"> Instagram </a>
+        <a href = "https://www.youtube.com/watch?v=H5v3kku4y6Q&ab_channel=HarryStylesVEVO" target = "_blank" class = "links bi bi-youtube"> Youtube </a>
+        <br><br><br>
+        <p class = "centered white"> made with ❤️ by n0tfilzhang 🫡 </p>
+        <script src = "script.js"></script>
     </body>
 </html>
